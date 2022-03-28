@@ -1,0 +1,13 @@
+.header {
+  border: 2px solid blue;
+  display: flex;
+  align-items: center;
+  position: sticky; /*static과 fixed의 기능을 갖고있다*/
+  top: 0;
+  z-index: 100; /*누가 위에있을지 정한다, 숫자가 클수록 위에있다*/
+}
+.img {
+  width: 70px;
+  object-fit: contain; /*컨테인크기로 맞춰준다*/
+  margin: 5px 20px;
+}
